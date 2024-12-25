@@ -8,7 +8,7 @@ from crud_functions import *
 
 initiate_db()
 
-api = "7659931111:AAG4Gk7iAk7Jl5cFWMD-mzOP5XQL2Pwq4iM"
+api = ""
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
